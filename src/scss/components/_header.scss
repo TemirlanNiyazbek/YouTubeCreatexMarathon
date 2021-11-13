@@ -1,0 +1,26 @@
+.header {
+   padding: 23px 0;
+   &-container {
+      @include flex-all-sb;
+   }
+
+   &__nav {
+      margin-left: -112px;
+   }
+
+   &--main {
+      background-color: var(--color-light);
+   }
+}
+
+.header-contacts {
+   @include flex-v-center;
+
+   &__link {
+     @include flex-column-start;
+
+
+   }
+}
+
+
